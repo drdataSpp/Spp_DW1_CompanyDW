@@ -7,6 +7,9 @@ A company has stored all its expenses and profits in a .csv file. The company wa
 ## How this project was done?
 1. In the excel file, all the column's data was checked and corrected.
 2. Created a new database and a table in Microsoft SSMS using the following code:
+
+**NOTE: For this project, I have not included primary keys in the DB table. From next project onwards I'll include PKs.**
+
 ``` 
   DROP DATABASE IF EXISTS [CompanyExpProfits];
   CREATE DATABASE [CompanyExpProfits];
